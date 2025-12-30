@@ -1,0 +1,45 @@
+menu {
+	padding: 0;
+}
+
+.book {
+	border: 1px solid #000;
+	display: inline-block;
+	padding: 1rem;
+}
+
+.button {
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	padding: 0.5rem 1rem;
+	font-size: 1.2rem;
+
+	&.blue {
+		background-color: #0041c0;
+		color: #fff;
+
+		&:hover {
+			background-color: #116dcb;
+		}
+	}
+
+	&.box-button {
+		padding: 0.3rem;
+		font-size: 1rem;
+	}
+}
+
+form section p {
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+form menu {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin: 1rem auto 0;
+	gap: 0.5rem;
+}
